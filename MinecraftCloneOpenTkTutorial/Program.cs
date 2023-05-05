@@ -1,5 +1,4 @@
-﻿
-namespace MinecraftCloneOpenTkTutorial
+﻿namespace MinecraftCloneOpenTkTutorial
 {
     class Program
     {
