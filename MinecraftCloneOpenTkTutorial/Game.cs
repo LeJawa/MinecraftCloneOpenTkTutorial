@@ -113,6 +113,9 @@ namespace MinecraftCloneOpenTkTutorial
         private int _ebo;
         private int _textureId;
 
+        // Camera
+        Camera _camera;
+
         // Transformation variables
         private float _yRot = 0f;
 
@@ -245,6 +248,9 @@ namespace MinecraftCloneOpenTkTutorial
             GL.BindTexture(TextureTarget.Texture2D, 0);
 
             GL.Enable(EnableCap.DepthTest);
+
+            _camera = new Camera(_width, _height, Vector3.Zero);
+            CursorState = CursorState.Grabbed; 
         }
 
         protected override void OnUnload()
@@ -279,8 +285,8 @@ namespace MinecraftCloneOpenTkTutorial
 
             // transformation matrices
             Matrix4 model = Matrix4.Identity;
-            Matrix4 view = Matrix4.Identity;
-            Matrix4 projection = Matrix4.CreatePerspectiveFieldOfView(MathHelper.DegreesToRadians(60.0f), _width/_height, 0.1f, 100.0f);
+            Matrix4 view = _camera.getViewMatrix();
+            Matrix4 projection = _camera.getProjectionMatrix();
 
             model *= Matrix4.CreateRotationY(_yRot);
             _yRot += 0.001f;
@@ -306,7 +312,11 @@ namespace MinecraftCloneOpenTkTutorial
 
         protected override void OnUpdateFrame(FrameEventArgs args)
         {
+            MouseState mouse = MouseState;
+            KeyboardState input = KeyboardState;
+
             base.OnUpdateFrame(args);
+            _camera.Update(KeyboardState, MouseState, args);
         }
 
         // Function to load a text  file and return its contents as a string
