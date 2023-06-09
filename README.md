@@ -10,12 +10,14 @@ The *main* branch will always point to the most up-to-date code but you can alwa
 
 1. [Installing and Setup](https://github.com/LeJawa/MinecraftCloneOpenTkTutorial/tree/bad87c643ef98c1bfa3176b2a01670eae91ea661)
 
-1. [Creating the Window](https://github.com/LeJawa/MinecraftCloneOpenTkTutorial/tree/a5294e4f30fddeb5f8618f6cdfe297becc004516)
+1. [Creating the Window](https://github.com/LeJawa/MinecraftCloneOpenTkTutorial/tree/bdc644187078c5b26fafd32d1a6680fadc6b0b61)
 
-1. [Drawing the First Triangle](https://github.com/LeJawa/MinecraftCloneOpenTkTutorial/tree/7bed36695bf0e4d8a55d1c0c1426fc83a410265e)
+1. [Drawing the First Triangle](https://github.com/LeJawa/MinecraftCloneOpenTkTutorial/tree/5b050aa40a4087dda429545916759fbcfa0f98f6)
 
-1. [Creating a 2D Dirt Block!](https://github.com/LeJawa/MinecraftCloneOpenTkTutorial/tree/1deb412791ffdb6092c8ca1c8ce3c85775df2a85)
+1. [Creating a 2D Dirt Block!](https://github.com/LeJawa/MinecraftCloneOpenTkTutorial/tree/31f553beac704b868de7547847e8053d70beb912)
 
-1. [Creating a 3D Block!](https://github.com/LeJawa/MinecraftCloneOpenTkTutorial/tree/0dc4df8da3f377830242cebd7b5efe283730f478)
+1. [Creating a 3D Block!](https://github.com/LeJawa/MinecraftCloneOpenTkTutorial/tree/18066ed23fc320d5ad68f320a084d9d67e1a23be)
 
-1. [First Person Camera](https://github.com/LeJawa/MinecraftCloneOpenTkTutorial/tree/2fe5afc302084817bf45d77abbc11eb036672cd5)
+1. [First Person Camera](https://github.com/LeJawa/MinecraftCloneOpenTkTutorial/tree/38d0546a4e0834007ab029a561bf587e71bc3590)
+
+1. [The Block Class Part 1](https://github.com/LeJawa/MinecraftCloneOpenTkTutorial)
