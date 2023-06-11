@@ -20,4 +20,6 @@ The *main* branch will always point to the most up-to-date code but you can alwa
 
 1. [First Person Camera](https://github.com/LeJawa/MinecraftCloneOpenTkTutorial/tree/38d0546a4e0834007ab029a561bf587e71bc3590)
 
-1. [The Block Class Part 1](https://github.com/LeJawa/MinecraftCloneOpenTkTutorial)
+1. [The Block Class Part 1](https://github.com/LeJawa/MinecraftCloneOpenTkTutorial/tree/ce50b29ea917f9c741053094be556e1a02db0496)
+
+1. [Chunking Part 1](https://github.com/LeJawa/MinecraftCloneOpenTkTutorial)
